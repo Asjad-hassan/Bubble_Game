@@ -82,3 +82,18 @@ body,html{
     background-color: rgb(139, 201, 14);
     cursor: pointer;
 }
+
+@media (max-width: 500px){
+    .ptop{
+        /* flex-direction: column; */
+        /* display: block; */
+        justify-content: flex-start;
+        padding: 0 10%;
+    }
+    .ptop{
+        gap:5px
+    }
+    .pbtm{
+        height: max-content;
+    }
+} 
